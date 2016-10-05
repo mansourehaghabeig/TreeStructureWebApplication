@@ -1,0 +1,10 @@
+For running JunitTest, also it needs to create a database and a table in database  with the following SQL scripts.
+
+
+create database testdatabase;
+use database;
+CREATE TABLE `testdatabase`.`tree`
+ (  `id` INT NOT NULL AUTO_INCREMENT,  
+`idparent` INT NULL,  `content` INT NULL,
+  PRIMARY KEY (`id`));
+ 
